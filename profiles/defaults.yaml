@@ -1,0 +1,19 @@
+elements:
+   in1:   css=input[ng-model="first"]
+   in2:   css=input[ng-model="second"]
+   opr:   css=select
+   goBtn:   gobutton
+browser:
+   url: https://juliemr.github.io/protractor-demo/
+   name: gc
+   nodeadress: False
+   cfgs: 
+      browserName: chrome
+      version: ""
+      platform: ANY
+      "goog:chromeOptions":  
+       args: 
+        - "--start-maximized"
+        - "--use-fake-ui-for-media-stream"
+         
+      
