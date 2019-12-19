@@ -6,7 +6,9 @@ elements:
 browser:
    url: https://juliemr.github.io/protractor-demo/
    name: gc
-   nodeadress: False
+   nodeadress: http://127.0.0.1:5555/wd/hub
+   #set nodeadress: False 
+   #works on local chrome
    cfgs: 
       browserName: chrome
       version: ""
@@ -16,4 +18,3 @@ browser:
         - "--start-maximized"
         - "--use-fake-ui-for-media-stream"
          
-      
